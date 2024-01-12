@@ -1,0 +1,22 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const pricingRules_1 = require("../data/pricingRules");
+const Checkout_1 = __importDefault(require("../implementations/Checkout"));
+const co1 = new Checkout_1.default(pricingRules_1.pricingRules);
+co1.scan('atv');
+co1.scan('atv');
+co1.scan('atv');
+co1.scan('vga');
+console.log(co1.total());
+const co2 = new Checkout_1.default(pricingRules_1.pricingRules);
+co2.scan('atv');
+co2.scan('ipd');
+co2.scan('ipd');
+co2.scan('atv');
+co2.scan('ipd');
+co2.scan('ipd');
+co2.scan('ipd');
+console.log(co2.total());

@@ -1,0 +1,20 @@
+{
+  "name": "computer-store",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Piyush Narsikar",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11"
+  }
+}

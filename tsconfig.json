@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "target": "es2016",
+      "module": "commonjs",
+      "outDir": "./build-sample",
+      "lib": ["es6","dom"],
+      "esModuleInterop": true,                               
+    }
+}
